@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <title>Aquarelle Design System - Emily Cheng</title>
+
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/stylesheet.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/sidebars.css" rel="stylesheet">
+
+  <!----------Google Fonts---------->
+  <!--Baloo Bhai 2-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet">
+
+  <!--Georama-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Georama:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <main class="d-flex flex-nowrap">
+
+    <!-- This determines the width of the sidebar. Change if needed. -->
+    <div class="flex-shrink-0 p-3 bg-white" style="width: 200px;">
+
+      <a href="#" class="d-flex align-items-center text-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+        <img src="images/logo_color.png" alt="Emily Cheng logo, purple" style="width:100%;">
+      </a>
+
+      <ul class="list-unstyled ps-0">
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed font_navlink"
+            data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="false">
+            Foundations
+          </button>
+          <div class="collapse" id="foundations-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="foundation/type.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Typographical Hierarchy</a>
+              </li>
+              <li><a href="foundation/color.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Color Palette</a>
+              </li>
+              <li><a href="foundation/logo.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Logo</a>
+              </li>
+
+            </ul>
+          </div>
+        </li>
+
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed font_navlink"
+            data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="false">
+            Components
+          </button>
+          <div class="collapse" id="components-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="components/component1.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Navbar</a></li>
+              <li><a href="components/component2.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Footer</a></li>
+              <li><a href="components/component3.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Card</a></li>
+
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed font_navlink"
+            data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
+            Page Patterns
+          </button>
+          <div class="collapse" id="patterns-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="patterns/page1.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Homepage</a></li>
+              <li><a href="patterns/page2.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Project
+                  Page</a></li>
+
+            </ul>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+    <div class="b-example-divider b-example-vr"></div>
+
+    <!-- Page Content  -->
+    <div class="container-fluid overflow-auto">
+      <div class="row p-5">
+        <div id="content">
+
+          <div>
+            <h1 class="font_display-lg">Aquarelle Design System</h1>
+            <h2 class="font_subdisplay-lg">by Emily Cheng</h2>
+          </div> <!--Title-->
+
+
+          <div class="homepage_div-pgdescript">
+            <h3 class="font_h3">About</h3>
+            <p>This website provides documentation for the Aquarelle Design System that I made for my portfolio. The
+              name "Aquarelle", which is a method of watercolor painting, was inspired by the cool and fresh color
+              palette with predominantly light colors. The
+              keywords I wanted to incorporate in the design system are: clean, simple, and friendly.</p>
+
+
+            <h3 class="font_h3">Foundations</h3>
+            <p>This section covers the design foundations for the design system: typographical hierarchy, color
+              palette, and logo variations.</p>
+
+            <h3 class="font_h3">Components</h3>
+            <p>This section covers reusable components needed to build the portfolio website, including navigation bars,
+              footers, and cards.</p>
+
+            <h3 class="font_h3">Page Patterns</h3>
+            <p>This section provides visual guidelines for the desktop, tablet, and mobile views of the homepage and the
+              project page.</p>
+          </div> <!-- Page Descriptions-->
+
+        </div> <!-- Content-->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+
+
+    </div> <!-- Content  -->
+
+
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script src="js/sidebars.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <title>Aquarelle Design System - Emily Cheng</title>
+
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+
+  <!--CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/stylesheet.css">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/sidebars.css" rel="stylesheet">
+
+  <!----------Google Fonts---------->
+  <!--Baloo Bhai 2-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet">
+
+  <!--Georama-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Georama:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <main class="d-flex flex-nowrap">
+
+    <!-- This determines the width of the sidebar. Change if needed. -->
+    <div class="flex-shrink-0 p-3 bg-white" style="width: 200px;">
+
+
+      <a href="../index.html"
+        class="d-flex align-items-center text-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+        <img src="../images/logo_color.png" alt="Emily Cheng logo, purple" style="width:100%;">
+      </a>
+
+      <ul class="list-unstyled ps-0">
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed font_navlink"
+            data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="true">
+            Foundations
+          </button>
+          <div class="collapse show" id="foundations-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="type.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Typographical
+                  Hierarchy</a>
+              </li>
+              <li><a href="#" class="link-dark d-inline-flex rounded font_navlink-active">Color Palette</a>
+              </li>
+              <li><a href="logo.html" class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Logo</a>
+              </li>
+
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed font_navlink"
+            data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="false">
+            Components
+          </button>
+          <div class="collapse" id="components-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="../components/component1.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Navbar</a></li>
+              <li><a href="../components/component2.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Footer</a></li>
+              <li><a href="../components/component3.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Cards</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed font_navlink"
+            data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
+            Page Patterns
+          </button>
+          <div class="collapse" id="patterns-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="../patterns/page1.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Homepage</a></li>
+              <li><a href="../patterns/page2.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded font_navlink">Project Page</a></li>
+            </ul>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+    <div class="b-example-divider b-example-vr"></div>
+
+    <!-- Page Content  -->
+    <div class="container-fluid overflow-auto">
+      <div class="row">
+        <div class="col-12">
+          <h1>Color Palette</h1>
+
+
+          <!--open primary colors cards div-->
+          <div class="row">
+            <h2>Primary Colors</h2>
+
+            <!--primary color #1-->
+            <div class="col-lg-3 col-md-12 py-2">
+              <div class="card shadow h-100">
+                <div class="color_paintchip color_lblue"></div>
+                <div class="card-body">
+                  <h3 class="card-title">Delphinium Blue</h3>
+                  <h4>#D5E0F1</h4>
+                  <p class="font_emphasized">Used in:</p>
+                  <ul>
+                    <li>Homepage
+                      <ul>
+                        <li>Project title background (desktop)</li>
+                      </ul>
+                    </li>
+                    <li>Project Page
+                      <ul>
+                        <li>"The Problem" background</li>
+                        <li>Findings card</li>
+                        <li>"Next project" background</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <!--primary color #2-->
+            <div class="col-lg-3 col-md-12 py-2">
+              <div class="card shadow h-100">
+                <div class="color_paintchip color_black"></div>
+                <div class="card-body">
+                  <h3 class="card-title">Hawthorn Black</h3>
+                  <h4>#3E3B3A</h4>
+                  <p class="font_emphasized">Used in:</p>
+                  <ul>
+                    <li>Most text</li>
+                    <li>LinkedIn and email icons in footer</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <!--primary color #3-->
+            <div class="col-lg-3 col-md-12 py-2">
+              <div class="card shadow h-100">
+                <div class="color_paintchip color_white"></div>
+                <div class="card-body">
+                  <h3 class="card-title">Coconut White</h3>
+                  <h4>#FEF9F6</h4>
+                  <p class="font_emphasized">Used in:</p>
+                  <ul>
+                    <li>Page background color, including navbar and footer</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <!--primary color #4-->
+
+            <div class="col-lg-3 col-md-12 py-2">
+              <div class="card shadow h-100">
+                <div class="color_paintchip color_teal"></div>
+                <div class="card-body">
+                  <h3 class="card-title">Hummingbird Teal</h3>
+                  <h4>#7DB9C0</h4>
+                  <p class="font_emphasized">Used in:</p>
+                  <ul>
+                    <li>Homepage
+                      <ul>
+                        <li>Project card background</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+          </div> <!-- close primary colors cards div-->
+
+
+          <!-- open secondary colors cards div-->
+
+          <div class="row mt-3">
+            <h2>Secondary Colors</h2>
+
+            <!--secondary color #1-->
+            <div class="col-lg-3 col-md-12 py-2">
+              <div class="card shadow h-100">
+                <div class="color_paintchip color_beige"></div>
+                <div class="card-body">
+                  <h3 class="card-title">Linen Beige</h3>
+                  <h4>#EAE9E9</h4>
+                  <p class="font_emphasized">Used in:</p>
+                  <ul>
+                    <li>Image placeholder color</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <!--secondary color #2-->
+            <div class="col-lg-3 col-md-12 py-2">
+              <div class="card shadow h-100">
+                <div class="color_paintchip color_taupe"></div>
+                <div class="card-body">
+                  <h3 class="card-title">Oak Taupe</h3>
+                  <h4>#CBC7C4</h4>
+                  <p class="font_emphasized">Used in:</p>
+                  <ul>
+                    <li>Image placeholder lines and border</li>
+                    <li>Navbar hamburger menu lines and border</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <!--secondary color #3-->
+            <div class="col-lg-3 col-md-12 py-2">
+              <div class="card shadow h-100">
+                <div class="color_paintchip color_indigo"></div>
+                <div class="card-body">
+                  <h3 class="card-title">Indigo Blue</h3>
+                  <h4>#483D98</h4>
+                  <p class="font_emphasized">Used in:</p>
+                  <ul>
+                    <li>Logo color</li>
+                    <li>Job title text in footer</li>
+                    <li>Homepage
+                      <ul>
+                        <li>Job title text at top</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <!--secondary color #4-->
+            <div class="col-lg-3 col-md-12 py-2">
+              <div class="card shadow h-100">
+                <div class="color_paintchip color_pink"></div>
+                <div class="card-body">
+                  <h3 class="card-title">Beet Pink</h3>
+                  <h4>#E34273</h4>
+                  <p class="font_emphasized">Used in:</p>
+                  <ul>
+                    <li>Homepage
+                      <ul>
+                        <li>"View project" link in project title card</li>
+                      </ul>
+                    </li>
+                    <li>Project Page
+                      <ul>
+                        <li>"Project title" link in "Next project" section</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div> <!-- close secondary colors cards div-->
+
+
+
+
+        </div> <!-- close container-->
+
+
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script src="../js/sidebars.js"></script>
+</body>
+
+</html>

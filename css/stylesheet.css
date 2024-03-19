@@ -1,0 +1,175 @@
+/* General */
+body {
+  background-color: #fef9f6;
+}
+
+/* Home Page */
+.homepage_div-pgdescript {
+  margin-top: 3em;
+}
+
+/* Typography Page*/
+
+.container-fluid {
+  padding: 3em;
+}
+
+p {
+  font-family: "Georama", sans-serif;
+  color: #3e3b3a;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Baloo Bhai 2", sans-serif;
+  color: #3e3b3a;
+}
+
+.font-info p {
+  font-family: monospace;
+}
+
+.font_display-lg {
+  font-size: 72px;
+}
+
+.font_subdisplay-lg {
+  font-size: 40px;
+  color: #483d98;
+}
+
+.font_display {
+  font-size: 34px;
+}
+
+.font_subdisplay {
+  font-size: 24px;
+  color: #483d98;
+}
+
+.font_navlink {
+  font-family: "Georama", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.font_navlink-active {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.font_h1 {
+  font-size: 47.78px;
+  font-weight: 500;
+}
+
+.font_h2 {
+  font-size: 39.81px;
+  font-weight: 500;
+}
+
+.font_h3 {
+  font-size: 33.18px;
+  font-weight: 500;
+}
+
+.font_h4 {
+  font-size: 22.65px;
+  font-weight: 500;
+}
+
+.font_body-small {
+  font-size: 12px;
+}
+
+.font_emphasized {
+  font-weight: 500;
+  font-stretch: 105%;
+  letter-spacing: 8%;
+  text-transform: uppercase;
+}
+
+.font_inlinelink {
+  font-weight: 600;
+  text-decoration: underline;
+  color: #e34273;
+}
+
+/* Color Palette Page */
+
+.color_paintchip {
+  width: 100%;
+  height: 200px;
+}
+
+.color_lblue {
+  background-color: #d5e0f1;
+}
+
+.color_black {
+  background-color: #3e3b3a;
+}
+
+.color_white {
+  background-color: #fef9f6;
+  border-bottom: 1px solid #cbc7c4;
+}
+
+.color_teal {
+  background-color: #7db9c0;
+}
+
+.color_beige {
+  background-color: #eae9e0;
+}
+
+.color_taupe {
+  background-color: #cbc7c4;
+}
+
+.color_indigo {
+  background-color: #483d98;
+}
+
+.color_pink {
+  background-color: #e34273;
+}
+
+/* Navbar Page */
+
+.code-background {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.component_navbar-image {
+  width: 80%;
+  border: 1px solid #cbc7c4;
+}
+
+.component_footer-image {
+  width: 80%;
+  border: 1px solid #cbc7c4;
+}
+
+/* Page Patterns */
+
+.patterns_img {
+  width: 80%;
+  border: 1px solid #cbc7c4;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.patterns_tablet {
+  width: 60%;
+}
+
+.patterns_phone {
+  width: 30%;
+}
